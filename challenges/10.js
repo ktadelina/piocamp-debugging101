@@ -9,10 +9,11 @@
 function zeroArray(m, n) {
   // Crea una matriz 2-D con m filas yn columnas de ceros
   let newArray = [];
-  let row = [];
+
   for (let i = 0; i < m; i++) {
     // Agrega la fila m en newArray
     
+    let row = [];
     for (let j = 0; j < n; j++) {
       // Anñade los n ceros en la fila actual para crear las columnas
       row.push(0);
